@@ -211,6 +211,14 @@ encoding and make it easier to embed your JSON in HTML and XML.
       <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>com.code-intelligence</groupId>
+      <artifactId>jazzer-junit</artifactId>
+      <version>0.22.1</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
   <reporting>
@@ -270,6 +278,11 @@ encoding and make it easier to embed your JSON in HTML and XML.
             </executions>
           </plugin>
         </plugins>
+        <testResources>
+            <testResource>
+                <directory>${project.basedir}/src/test/java</directory>
+            </testResource>
+        </testResources>
       </build>
     </profile>
     <profile>
