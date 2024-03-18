@@ -2,8 +2,6 @@ package com.google.json;
 
 import com.code_intelligence.jazzer.api.FuzzedDataProvider;
 import com.code_intelligence.jazzer.junit.FuzzTest;
-import com.google.json.EvalMinifier;
-import com.google.json.JsonSanitizer;
 
 public class JazzerFuzzTest {
 
